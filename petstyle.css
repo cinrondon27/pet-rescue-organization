@@ -1,0 +1,79 @@
+body {
+        background-color: #D2B48C;
+        margin : 0 10%;
+        font-family: "advent pro";
+    }
+    
+    p  {
+        font-size: 1.5em;
+        font-family: "advent pro";
+        margin-top: 30px;
+    }
+li  {
+        font-size: 1.2em;
+        font-family: "advent pro";
+    }
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        font-family: "advent pro";
+        font-weight: bold;
+        border-bottom: double #8B4513;
+        margin-top: 30px;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        color: #8B4513;
+    }
+
+    h3{
+        text-align: center;
+        font-family: "advent pro";
+        font-weight: bolder;
+        font-size: 2.5em;
+        color: #8B4513;
+
+    }
+
+    h4{
+        text-align: center; 
+        font-family: "advent pro";
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    .pet grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+gap: 20px
+}
+.pet-card {
+background-color: 
+padding: 20px;
+text-align: center;
+}
+.pet-card img {
+width: 200px;
+max-height: 200px
+object-fit: cover;
+border-radius: 5px;
+}
+.form-label {
+display: block;
+margin-bottom:5px;
+}
+.form-input {
+display:block;
+margin-botton: 10px
+width: 100%
+}
+
+    footer { 	    
+        border-top: double #8B4513;  
+        text-align: center;  padding-top: 1em; } 
+    footer img {  width: 60px;  height: 60px;  
+                    margin-left: .5em;  margin-right: .5em; } 
+    button:hover {
+    color: black;
+    background-color: white;
+    }
